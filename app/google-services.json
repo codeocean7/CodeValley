@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68733925555",
+    "project_id": "codevalley-d4e4c",
+    "storage_bucket": "codevalley-d4e4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68733925555:android:0ef6de89f3cce7a474d8c6",
+        "android_client_info": {
+          "package_name": "com.zealsoft.codevalley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68733925555-827sotnqh0dp96r9rgv8vktv0p3qbn1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3_nI4UKhD0STlLUeVYQUNckkEUb_4D3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68733925555-827sotnqh0dp96r9rgv8vktv0p3qbn1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
