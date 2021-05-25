@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notebook Structure:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="55dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Each Challenge has two notebooks,a challenge notebook with unit tests for you to solve and a solution notebook for reference."
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problem Statement:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="States the problem to solve."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"
+        android:layout_marginRight="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraints:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Describes any constraints or assumptions."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Cases:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="95dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Describes the general and edge test cases that will be evaluated in the unit test."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Algorithm:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Challenge Notebook] Empty,refer to the solution notebook algorithm section if you need a hint."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Solution Notebook] One or more algorithm solution discussions,with Big-O time and space complexities."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hints:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Challenge Notebook] Provides on-demand incremental hints to help you arrive at the optimal solution.Coming soon!"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code(Challenge:Implement Me!):"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Challenge Notebook] Skeleton code for you to implement."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Solution Notebook] One or more reference solutions."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit Test:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Challenge Notebook] Unit test for your code.Expected to fail until you solve the challenge."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Solution Notebook] Unit test for the reference solution(s)."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_circle"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

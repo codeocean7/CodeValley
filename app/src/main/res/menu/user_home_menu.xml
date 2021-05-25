@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/uDashboard"
+        android:title="@string/dashboard"
+        android:icon="@drawable/ic_dashboard">
+    </item>
+
+    <item android:id="@+id/uProfile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile">
+    </item>
+
+    <item android:id="@+id/uAbout"
+        android:title="@string/about"
+        android:icon="@drawable/ic_about">
+    </item>
+
+    <item android:id="@+id/uChallenges"
+        android:title="@string/challenges"
+        android:icon="@drawable/ic_challenges">
+    </item>
+
+    <item android:id="@+id/uMyChallenges"
+        android:title="@string/my_challenges"
+        android:icon="@drawable/ic_mychallenges">
+    </item>
+
+</menu>

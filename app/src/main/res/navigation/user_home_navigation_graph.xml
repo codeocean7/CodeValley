@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_home_navigation_graph"
+    app:startDestination="@id/uDashboard">
+
+    <fragment android:name="com.zealsoft.codevalley.Fragments.UserDashboardFragment"
+        android:id="@+id/uDashboard"
+        android:label="Dashboard"
+        tools:layout="@layout/user_dashboard_layout"/>
+
+    <fragment android:name="com.zealsoft.codevalley.Fragments.UserProfileFragment"
+        android:id="@+id/uProfile"
+        android:label="Profile"
+        tools:layout="@layout/user_profile_layout"/>
+
+    <fragment android:name="com.zealsoft.codevalley.Fragments.UserAboutFragment"
+        android:id="@+id/uAbout"
+        android:label="About"
+        tools:layout="@layout/user_about_layout"/>
+
+    <fragment android:name="com.zealsoft.codevalley.Fragments.UserChallengesFragment"
+        android:id="@+id/uChallenges"
+        android:label="Challenges"
+        tools:layout="@layout/user_challenges_layout"/>
+
+    <fragment android:name="com.zealsoft.codevalley.Fragments.UserMyChallengesFragment"
+        android:id="@+id/uMyChallenges"
+        android:label="My Challenges"
+        tools:layout="@layout/user_mychallenges_layout"/>
+    
+</navigation>

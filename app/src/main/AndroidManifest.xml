@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.zealsoft.codevalley">
 
     <application
@@ -9,15 +10,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CodeValley">
+
+        <activity
+            android:name=".UserDrawerActivity"
+            android:label="@string/title_activity_user_drawer"
+            android:theme="@style/Theme.CodeValley.NoActionBar">
+        </activity>
+
+        <activity android:name=".Activities.RegistrationActivity"
+            android:label="Registration.."
+            android:theme="@style/Theme.CodeValley">
+        </activity>
+
+        <activity android:name=".Activities.UserChallengeDetailActivity"
+            android:theme="@style/Theme.CodeValley">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.LoginActivity"
+            android:label="Login"
+            android:theme="@style/Theme.CodeValley">
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.CodeValley.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

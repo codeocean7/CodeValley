@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Anki"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Challenge"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ChlgSltn"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fully_functional"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_tested"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy_to_understand"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenges will soon provide on-demand incremental hints to help you arrive at the optimal solution."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notebooks also detail:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraints"
+        android:textSize="25sp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Cases"
+        android:textSize="25sp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Algorithms"
+        android:textSize="25sp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big-O time and space complexities"
+        android:textSize="25sp"
+        android:drawableStart="@drawable/ic_circle"
+        android:drawablePadding="6dp"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Also included are unit tested reference implementations of various data structures and algorithms."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+</ScrollView>
